@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.scss">
 </head>
 <body>
-    
+    <div class="login-container">
+        <div class="login-content">
+          <div class="login-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Netflix_2015_logo.svg" alt="Netflix Logo">
+          </div>
+          <h1>Sign In</h1>
+          <form>
+            <input type="email" placeholder="Email or phone number" class="input-field" required />
+            <input type="password" placeholder="Password" class="input-field" required />
+            <button type="submit" class="submit-button">Sign In</button>
+            <div class="options">
+              <label class="remember-me">
+                <input type="checkbox" /> Remember me
+              </label>
+              <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+          </form>
+          <div class="signup">
+            <span>New to Netflix?</span>
+            <button class="signup-button">Sign up now</button>
+          </div>
+        </div>
+      </div>
+      
 </body>
 </html>
